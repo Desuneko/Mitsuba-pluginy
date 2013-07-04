@@ -5,4 +5,5 @@ Pluginy do Mitsuby przystosowywujące Mitsubę do użytku na polskich imageboard
 
 szkaluje.php
 ------------
-Plugin losujący szkalujący tekst po wpisaniu `#szkaluję [kogo?]` w pole e-mail.
+Plugin losujący szkalujący tekst po wpisaniu `#szkaluje [kogo?]` w pole 
+e-mail.
