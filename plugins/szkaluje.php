@@ -743,13 +743,9 @@ class plugin_Szkaluje implements IPlugin {
 				$szkalowany = $szkaluj[1];
 			}
 			$szkaluj_text = sprintf($this->szkaluj_array[array_rand($this->szkaluj_array)], $szkaluj[1]);
-			echo $szkaluj_text;
-			$szkaluj_code = "<span style='color: violet; font-weight: bold;'>".$szkaluj_text."</span>";
-			if ($eventData['raw'] == 0)
-			{
-				$eventData['raw'] = 2;
-			}
+			$szkaluj_code = "<+<span style='color: violet; font-weight: bold;'>".$szkaluj_text."</span>+>";
 			$eventData['comment'] = $szkaluj_code."\n".$eventData['comment'];
+			$eventData['email'] = "";
 		}
 	}
 	
